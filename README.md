@@ -1,8 +1,8 @@
 # YubiGPGKeyer
 
-Generating RSA keys on Yubikeys is a delight many of us have enjoyed, and it's fine for a single key. Once you start doing more than key, say an organisation's worth, it quickly gets less enjoyable.
+[Generating RSA keys on Yubikeys is a delight](https://www.yubico.com/2012/12/yubikey-neo-openpgp/) many of us have enjoyed, and it's fine for a single key. Once you start doing more than key, say an organisation's worth, it quickly gets less enjoyable.
 
-This script can help with that, by providing a semi-reasonable command line interface to automate as much as possible of that process.
+Being able to programmatically generate keys with as little human interaction as possible (there remains some, due to fragility and the real world). It even has JSON output if need be, so you can feed use it as part of another script.
 
 ## Requirements
 
@@ -53,6 +53,10 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6NF8iallvQVp22WDkTkyrtvp9eWW6A8YVr+kz4TjGYe7
 ```
 
 There's the JSON output too, if you wish to feed to it in to something else.
+
+# Contributing
+
+Please do! See [Contributing](CONTRIBUTING.md)
 
 # Bugs
 
